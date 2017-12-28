@@ -4,13 +4,13 @@ React native wrapper for QWSdk
 
 ### Getting Started
 
- 1.``` sh
-  	npm i git+https://git@https://github.com/monideeps99/rn-qwsdk.git --save
-   ```
+``` sh
+  npm i git+https://git@https://github.com/monideeps99/rn-qwsdk.git --save
+```
 ### Manual Installation
 ##### iOS
-2. In XCode, in the project navigator, Click on your Project then under <code>Build Phases</code> tab, expand <code>Link Binary With Libraries </code> and click the Plus icon to add libRNQWSdk.a .
-3. Now edit your app.js file and add the following lines
+1. In XCode, in the project navigator, Click on your Project then under <code>Build Phases</code> tab, expand <code>Link Binary With Libraries </code> and click the Plus icon to add libRNQWSdk.a .
+2. Now edit your app.js file and add the following lines
 	```js
     	const RNQWSdk = require('rn-qwsdk');
         // Test your integration

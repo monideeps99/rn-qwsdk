@@ -13,7 +13,7 @@ React native wrapper for QWSdk
 ![](https://i.imgur.com/lecJXSf.png)
 2. Now edit your app.js file and add the following lines
 	```js
-    	const RNQWSdk = require('rn-qwsdk');
+    	  const RNQWSdk = require('rn-qwsdk');
         // Test your integration
         // It will log "Hello {name} to the debugger console"
         // RNQWSdk.test("Foo Bar");

@@ -5,7 +5,7 @@ React native wrapper for QWSdk
 ### Getting Started
 
 ``` sh
-  npm i git+https://git@https://github.com/monideeps99/rn-qwsdk.git --save
+  npm i git+https://git@github.com/monideeps99/rn-qwsdk.git --save
 ```
 ### Manual Installation
 ##### iOS

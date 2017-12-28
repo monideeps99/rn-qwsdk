@@ -11,6 +11,11 @@ React native wrapper for QWSdk
 ##### iOS
 1. In XCode, in the project navigator, Click on your Project then under <code>Build Phases</code> tab, expand <code>Link Binary With Libraries </code> and click the Plus icon to add libRNQWSdk.a .
 ![](https://i.imgur.com/lecJXSf.png)
+2. Edit info.plist file and add the following permissions
+  ```sh
+    <key>NSCameraUsageDescription</key>
+    <string>Need camera access for scanning QR Code</string>
+  ```
 2. Now edit your app.js file and add the following lines
 	```js
     	  const RNQWSdk = require('rn-qwsdk');

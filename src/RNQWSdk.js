@@ -13,8 +13,8 @@ module.exports = {
     RNQWSdk.init(data);
   },
 
-  subscribe(){
-  	RNQWSdkEmitter.addListener( 'QWCallback', (data) => console.log(data));
+  subscribe(callback){
+  	RNQWSdkEmitter.addListener( 'QWCallback', (data) => callback(data));
   }
 
   unsuscribe(){
